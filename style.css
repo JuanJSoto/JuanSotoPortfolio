@@ -7,8 +7,16 @@
   
   body {
     font-family: Arial, sans-serif;
+    width: 1300px; 
+    margin: 0 auto;
+    background-color: rgb(114, 127, 167);
   }
   
+  .pageWrapper {
+    max-width: 1200px;
+    margin:0px auto
+  }
+
   header {
     background-color: #333;
     color: #fff;
@@ -20,20 +28,6 @@
     text-align: center;
   }
 
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
   .profileImage {
     display: block;
     margin-left: auto;
@@ -46,21 +40,6 @@
   main {
     margin:auto;
     width: 50%;
-  }
-
-
-
-  section {
-    padding: 50px;
-  }
-  
-  .project {
-    margin-bottom: 30px;
-  }
-  
-  .project img {
-    max-width: 100%;
-    height: auto;
   }
   
   footer {
