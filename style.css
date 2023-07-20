@@ -9,7 +9,8 @@
     font-family: Arial, sans-serif;
     width: 1300px; 
     margin: 0 auto;
-    background-color: rgb(114, 127, 167);
+  /*  background-color:#6d7993; */
+  background: radial-gradient(29, 78, 216, 0.15)
   }
   
   .pageWrapper {
@@ -18,10 +19,12 @@
   }
 
   header {
-    background-color: #333;
+  /*  background-color: #96858f; */
     color: #fff;
     padding: 10px;
     margin:auto;
+    font-family: sans-serif;
+    color: #9099a2;
   }
   
   h1, h2 {
