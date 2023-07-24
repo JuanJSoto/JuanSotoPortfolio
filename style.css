@@ -7,9 +7,10 @@
   
   body {
     font-family: Arial, sans-serif;
+    color: #24344d;
     width: 1300px; 
     margin: 0 auto;
-  /*  background-color:#6d7993; */
+   background-color:#c0c0c0;
   background: radial-gradient(29, 78, 216, 0.15)
   }
   
@@ -19,15 +20,56 @@
   }
 
   header {
+    /* background-color: #121ec2; */
+    margin-bottom: 40px;
+    display: block;
+  }
+  
+  header h1 {
+    color: #3e567c;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 56px;
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5;
+  }
+  
+  header nav ul li {
+    list-style-type: none;
+  }
+  
+  header nav ul li a {
+    color: #3e567c;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:larger;
+  }
+
+
+
+
+/*original header info */
+  header { 
   /*  background-color: #96858f; */
     color: #fff;
     padding: 10px;
     margin:auto;
     font-family: sans-serif;
     color: #9099a2;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
   }
   
   h1, h2 {
