@@ -21,8 +21,14 @@
 
   header {
     /* background-color: #121ec2; */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: block;
+    color: #fff;
+    padding: 10px;
+    margin:auto;
+    font-family: sans-serif;
+    color: #9099a2;
+    
   }
   
   header h1 {
@@ -58,20 +64,6 @@
     font-size:larger;
   }
 
-
-
-
-/*original header info */
-  header { 
-  /*  background-color: #96858f; */
-    color: #fff;
-    padding: 10px;
-    margin:auto;
-    font-family: sans-serif;
-    color: #9099a2;
-    
-  }
-  
   h1, h2 {
     text-align: center;
   }
@@ -80,9 +72,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
-    width: 25%;
-    height: 25%;
+    padding-bottom: 15px;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
   }
 
   main {
@@ -90,11 +84,30 @@
     width: 50%;
   }
 
-.column {
+  .index-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+.skill-column {
   float: left;
   width: 33.33%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.interest-column {
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+.interest-column ol {
+  text-align: left;
+  margin-left: 30%;
+
 }
 
 .row:after {
@@ -103,10 +116,10 @@
   clear: both;
 }
   
-  footer {
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
-  }
+}
   
