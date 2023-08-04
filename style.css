@@ -134,6 +134,12 @@
   display: table;
   clear: both;
 }
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
 footer {
     background-color: #333;
